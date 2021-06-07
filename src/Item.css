@@ -1,0 +1,7 @@
+.item{
+    display: flex;
+}
+.item img{
+    width: 8.1875rem;
+    border-radius: 7px;
+}

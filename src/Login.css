@@ -1,0 +1,24 @@
+.Login{
+    justify-content: center;
+    align-items: center;
+    padding-top: 11%;
+    padding-left: 39%;
+    display: list-item;
+    background-color: #ffffff;
+    height: 100vh;
+}
+.Login > img:nth-child(1){
+    margin-left: 11%;
+}
+.Login button{
+    width: 33%;
+    background-color: #2678f3;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+#right{
+    padding-left: 50px;
+}

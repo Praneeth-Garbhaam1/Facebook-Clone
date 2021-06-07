@@ -1,0 +1,30 @@
+.message{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 8px -9px rgb(0 0 0 / 75%);
+    padding: 15px;
+}
+.first{
+    display: flex;
+}
+.first > input{
+    background-color: #E4E6E9;
+    height: 40px;
+    width: 100%;
+    border-radius: 45px;
+    border: none;
+    padding-left: 10px;
+    font-size: initial;
+    margin-left: 3px;
+}
+
+.messagebut{
+    justify-content: space-between;
+    display: flex;
+}
+
+.message span{
+    color: #111;
+}

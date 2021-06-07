@@ -1,0 +1,9 @@
+.feed{
+    width: 45%;
+    margin: 0px 100px 0px 100px;
+
+}
+.stories{
+    margin-top: 30px;
+    display: flex;
+}
