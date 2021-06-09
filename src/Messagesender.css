@@ -1,10 +1,9 @@
 .message{
     border-radius: 10px;
-    margin-top: 30px;
-    width: 100%;
     background-color: white;
     box-shadow: 0px 5px 8px -9px rgb(0 0 0 / 75%);
     padding: 15px;
+
 }
 .first{
     display: flex;
@@ -20,11 +19,26 @@
     margin-left: 3px;
 }
 
-.messagebut{
-    justify-content: space-between;
+.messageSender__bottom {
     display: flex;
-}
-
-.message span{
-    color: #111;
-}
+    justify-content: space-evenly;
+  }
+  
+  .messageSender__option {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+  }
+  
+  .messageSender__option > h3 {
+    font-size: medium;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .messageSender__option:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+  }
+  

@@ -37,6 +37,8 @@
 }
 .like_section button{
     padding: 8px 55px 8px 55px;
+    border: none;
+    border-radius: 10px;
 }
 .like_section button:hover{
     background-color: #ccc;

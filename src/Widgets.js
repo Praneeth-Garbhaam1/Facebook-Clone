@@ -2,17 +2,31 @@ import React from 'react';
 import './Widget.css';
 import Item from './Item';
 import Contact from './Contact';
+import {  Search } from '@material-ui/icons';
+import VideocamIcon from '@material-ui/icons/Videocam';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Button from '@material-ui/core/Button';
+
 function Widgets() {
     return (
         <div className="widgets">
             <div className="sponsor">
-                <span>Sponsored</span><br></br>
+                <span style={{ color: "gray",fontSize: "large"}}>Sponsored</span><br></br>
                 <div className="item-one"><Item /></div>
                 <div className="item-one"><Item /></div>
             </div>
             <hr></hr>
             <div className="contacts">
-                <h4>Contacts</h4>
+                <div className="contact-header">
+                    <div className="firstsection">
+                    <span style={{ color: "gray",fontSize: "large"}}><b>Contacts</b></span>
+                    </div>
+                    <div className="contact-icons">
+                        <Button><VideocamIcon/></Button>
+                        <Button><Search/></Button>
+                        <Button><MoreVertIcon/></Button>
+                    </div>
+                </div>
                 <Contact/>
             </div>
         </div>

@@ -3,14 +3,36 @@
     height: 198px;
     width: 112px;
     background-color: white;
-    padding-right: 21px;
     margin-right: 9px;
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+.storyreel:nth-child(1) > img{
+   width: 112px;
+   height: 140px;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+}
+.storyreel:nth-child(1) > span{
+    font-weight: bold;
+    font-size: small;
+}
+.storyreel:nth-child(1) > .plus{
+    position: absolute;
+    background-color: #216bda;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    left: 26rem;
+    top: 32%;
 }
 .moreStories{
     position: absolute;
-    left: 70%;
-    top: 24%;
+    left: 63%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #cccc;
+    background: #fff;
+    top: 26%;
 }
 .moreStories > .MuiSvgIcon-root{
     padding: 30px;

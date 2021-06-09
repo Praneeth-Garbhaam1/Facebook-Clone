@@ -1,34 +1,35 @@
-import React from 'react';
+import React,{ useState }from 'react';
 import { Avatar, IconButton } from '@material-ui/core';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import Button from '@material-ui/core/Button';
+import Dialog from './Dialogbox';
+import { useStateValue } from './StateProvider';
 import './Messagesender.css';
 
-function Messagesender() {
+function Messagesender(props) {
+    const [{ user }, dispatch] = useStateValue();
+    
     return (
         <div className="message">
             <div className="first">
-                <Avatar  />
-                <input type="text" placeholder="Whats on your mind, sai?" />
+                <Avatar  src={user.photoURL}/>
+                <Dialog/>
             </div>
             <hr></hr>
-            <div className="messagebut">
-                <div className="message-option">
-                    <Button>
-                        <VideocamIcon style={{color:"#e52645"}}/>Live video
-                    </Button>
+            <div className="messageSender__bottom">
+                <div className="messageSender__option">
+                    <VideocamIcon style={{ color: 'red' }} />
+                    <h3>Live Video</h3>
                 </div>
-                <div className="message-option">
-                    <Button>
-                        <PhotoLibraryIcon style={{color:"#41b35e"}}/><span>Photo/Video</span>
-                    </Button>
+                <div className="messageSender__option">
+                    <PhotoLibraryIcon style={{ color: 'green' }} />
+                    <h3>Photo/Video</h3>
                 </div>
-                <div className="message-option">
-                    <Button>
-                        <InsertEmoticonIcon style={{color:"#eab12a"}}/><span>Feeling/Activity</span>
-                    </Button>
+                <div className="messageSender__option">
+                    <InsertEmoticonIcon style={{ color: 'orange' }} />
+                    <h3>Feeling/Activity</h3>
                 </div>
             </div>
         </div>

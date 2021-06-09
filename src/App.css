@@ -1,3 +1,24 @@
 .app-content > .app-body{
     display: flex;
+    margin: 0 auto;
 }
+  
+.app-content > .app-body::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .app-content > .app-body > .sidebar {
+      position: fixed;
+      
+  }
+
+  .app-content > .app-body > .feed{
+      position: relative;
+      margin-left: 25%;
+  }
+
+  .app-content > .app-body > .widget{
+    position: sticky;
+  }

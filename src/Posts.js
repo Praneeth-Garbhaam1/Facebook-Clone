@@ -1,5 +1,6 @@
 import React from 'react';
-import { Avatar, IconButton } from '@material-ui/core';
+import { Avatar, IconButton } from '@material-ui/core'; 
+import AvatarGroup from '@material-ui/lab/AvatarGroup';
 import './Posts.css';
 
 function Posts(props) {
@@ -20,8 +21,10 @@ function Posts(props) {
             </div>
             <div className="post_bottom">
                 <div className="likesection">
-                    <img src="https://i.pinimg.com/originals/39/44/6c/39446caa52f53369b92bc97253d2b2f1.png"/>
-                    <img src="https://e7.pngegg.com/pngimages/764/686/png-clipart-white-heart-love-social-media-like-button-emoticon-emoji-like-new-s-text-heart-thumbnail.png"/>
+                    <AvatarGroup max={4}>
+                        <Avatar alt="like" src="https://i.pinimg.com/originals/63/3b/2e/633b2ea2a96ceaa39669a86dac0f3c01.jpg" />
+                        <Avatar alt="heart" src="https://i.pinimg.com/564x/d9/fa/40/d9fa401bc63e116457be8412026cde2c.jpg" />
+                    </AvatarGroup>
                     <span>55</span>
                 </div>
                 <hr></hr>
@@ -33,7 +36,7 @@ function Posts(props) {
                 <hr></hr>
                 <div className="comment_section">
                     <Avatar src=""/>
-                    <input type="text" placeholder="comment \n sai praneeth" />
+                    <input type="text" placeholder="Write your comment" />
                 </div><br></br>
             </div>
         </div>

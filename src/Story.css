@@ -1,0 +1,21 @@
+.story{
+    justify-content: space-between;
+}
+.story .avatar{
+    position: absolute;
+    margin-top: -13%;
+    padding: 10px 0px 0px 10px;
+}
+.story .title{
+    position: absolute;
+    margin-top: -45px;
+    color: white;
+    font-weight: bolder;
+    padding-left: 7px;
+}
+.story > #image{
+    width: 112px;
+    height:198px;
+    border-radius: 13px;
+    background-color: rgba(102, 33, 33, 0.973);
+}

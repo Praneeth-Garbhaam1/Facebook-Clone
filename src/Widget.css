@@ -1,7 +1,10 @@
 .widgets{
-    margin-top: 20px;
+  margin-top: 20px;
     font-weight: bolder;
     font-size: larger;
+    position: fixed;
+    margin-left: 77%;
+    width: 100%;
 }
 .widgets .sponsor .item-one{
     margin: 5px;
@@ -10,6 +13,13 @@
 .widgets .sponsor .item-one:hover{
     background-color: #e4e6e9;
     border-radius: 5px;
+}
+.item-one{
+  font-size: small;
+}
+.contact-header{
+  
+  justify-content: space-between;
 }
 /* width */
 ::-webkit-scrollbar {

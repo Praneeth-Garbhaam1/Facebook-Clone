@@ -76,10 +76,62 @@
     align-items: center;
   }
   
+  .header__info > .MuiAvatar-root {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    user-select: none;
+    margin-right: 4px;
+    border-radius: 50%;
+    justify-content: center;
+  }
+
   .header__info > h4 {
     margin-left: 10px;
   }
-  
+
+  .header__info:hover{
+    background-color: #E4E6E9;
+    border-radius: 50px;
+  }
+
   .header__right {
     display: flex;
   }
+
+
+  .header__right .MuiIconButton-root {
+  flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    background-color: #e4e6e9;
+    overflow: visible;
+    margin-left: 11px;
+    /* justify-content: space-between; */
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+  }
+  .header__right .MuiPopover-paper {
+    outline: 0;
+    position: absolute;
+    max-width: calc(100% - 32px);
+    min-width: 16px;
+    max-height: calc(100% - 32px);
+    min-height: 16px;
+    overflow-x: hidden;
+    border-radius: 3%;
+    overflow-y: auto;
+}
+ .header__right .MuiMenuItem-root:hover{
+  background-color: #E4E6E9;
+
+}
