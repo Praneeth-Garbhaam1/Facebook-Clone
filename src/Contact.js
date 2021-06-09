@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
     return (
         <div className="contacts">
-            <ContactItem/>
+            <ContactItem/> 
             <ContactItem/>
             <ContactItem/>
             <ContactItem/>
