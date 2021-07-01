@@ -1,9 +1,9 @@
 import './App.css';
-import Header from './header';
-import Sidebar from './Sidebar';
-import Feed from './Feed';
-import Widgets from './Widgets';
-import Login from './Login';
+import Header from './components/pages/Header/header';
+import Sidebar from './components/pages/Feed/Sidebar/Sidebar';
+import Feed from './components/pages/Feed/Feed';
+import Widgets from './components/pages/Feed/Widgets/Widgets';
+import Login from './components/pages/Login/Login';
 import { useStateValue } from './StateProvider'
 
 function App() {

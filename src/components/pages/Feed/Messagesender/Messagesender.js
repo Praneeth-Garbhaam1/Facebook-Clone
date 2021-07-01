@@ -4,8 +4,8 @@ import VideocamIcon from '@material-ui/icons/Videocam';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import Button from '@material-ui/core/Button';
-import Dialog from './Dialogbox';
-import { useStateValue } from './StateProvider';
+import Dialog from '../Dialogbox';
+import { useStateValue } from '../../../../StateProvider';
 import './Messagesender.css';
 
 function Messagesender(props) {

@@ -1,5 +1,5 @@
 .header {
-    padding: 15px 20px;
+    padding: 5px 20px;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 7px;
     margin-left: 10px;
     border-radius: 999px;
   }
@@ -110,7 +110,7 @@
   .header__right .MuiIconButton-root {
   flex: 0 0 auto;
     color: rgba(0, 0, 0, 0.54);
-    padding: 12px;
+    padding: 8px;
     background-color: #e4e6e9;
     overflow: visible;
     margin-left: 11px;
@@ -133,5 +133,48 @@
 }
  .header__right .MuiMenuItem-root:hover{
   background-color: #E4E6E9;
-
 }
+
+MenuItem{
+  /* background-color: "transparent"; */
+}
+
+#seeurprofile{
+  color:grey;
+}
+.Menubar
+{ 
+   width: 363px;
+   height: 479px;
+   margin: 7px;
+   /* transform: translate(-45%);
+   overflow: hidden; */
+}
+
+#privacy{
+  color: grey;
+  font-size: 13px;
+}
+
+#menulistitem:hover{
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+#menulistitem{
+  justify-content: space-between;
+  padding-left: 3px;
+}
+
+#menulistitem > .item > #icon-btn{
+  padding:8px;
+  background-color: #d8dadf;
+  margin-right: 9px;
+}
+.item{
+  align-items: center;
+}
+/* #right-icon{
+  margin-left: auto;
+} */
+

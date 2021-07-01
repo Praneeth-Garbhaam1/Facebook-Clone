@@ -1,11 +1,11 @@
 import React from 'react';
-import StoryReel from './Storyreel';
+import StoryReel from './Storyreel/Storyreel';
 import { IconButton } from '@material-ui/core';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import MessageSender from './Messagesender';
-import CreateRoom from './Createroom';
-import Posts from './Posts';
-import './Feed.css'
+import MessageSender from './Messagesender/Messagesender';
+import CreateRoom from './CreateRoom/Createroom';
+import Posts from './Posts/Posts';
+import './Feed.css';
 
 function Feed() {
     return (

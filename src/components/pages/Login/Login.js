@@ -1,8 +1,8 @@
 import React from 'react';
-import { auth, provider } from './firebase';
+import { auth, provider } from '../../../firebase';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import { actionTypes } from './reducer';
-import { useStateValue } from './StateProvider';
+import { actionTypes } from '../../../reducer';
+import { useStateValue } from '../../../StateProvider';
 import './Login.css';
 
 function Login() {

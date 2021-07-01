@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import SidebarRow from './SidebarRow'
-import { useStateValue } from './StateProvider'
+import { useStateValue } from '../../../../StateProvider'
 
 function Sidebar() {
     const [{user}, dispatch] = useStateValue();

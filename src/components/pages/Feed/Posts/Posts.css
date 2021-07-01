@@ -1,7 +1,7 @@
 .posts{
     width: 100%;
     background-color: #fff;
-    margin-top: 30px;
+    margin-top: 17px;
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
 }
@@ -10,15 +10,24 @@
 }
 .posts .post-top{
     display: flex;
-}
-.posts .post-top{
     padding: 16px;
+    justify-content: space-between;
+}
+.top_info,.comment_section{
+    display: flex;
 }
 .posts .post__topinfo{
     padding-left: 5px;
 }
+.posts .post__topinfo > p {
+    font-size: smaller;
+    color: grey;
+}
 .posts .post_message{
     padding-left: 16px;
+}
+.posts .post_message > p{
+    font-size: smaller;
 }
 .likesection img:nth-child(1){
     width: 35px;
@@ -42,10 +51,7 @@
 }
 .like_section button:hover{
     background-color: #ccc;
-    border-radius: 2px;
-}
-.comment_section{
-    display: flex;
+    border-radius: 9px;
 }
 .comment_section > input{
     background-color: #E4E6E9;
@@ -56,4 +62,11 @@
     padding-left: 10px;
     font-size: initial;
     margin-left: 3px;
+}
+#morehorizonvert{
+    width: 40px;
+    height: 40px;
+}
+.comment_icons{
+    position: absolute;
 }

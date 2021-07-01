@@ -1,0 +1,17 @@
+.single-contact{
+    display: flex;
+    align-items: center;
+}
+.single-contact:hover{
+    background-color: #e4e6e9;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.single-contact > .avataricon{
+    width: 28px;
+    height:28px;
+}
+.single-contact > span{
+    font-size: 14px;
+    font-weight: 100;
+}

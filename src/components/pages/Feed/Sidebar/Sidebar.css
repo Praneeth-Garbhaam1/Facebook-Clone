@@ -3,4 +3,9 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
+   height: 100vh;
+   width: 25%;
+}
+.sidebar:hover{
+    overflow-y: scroll;
 }

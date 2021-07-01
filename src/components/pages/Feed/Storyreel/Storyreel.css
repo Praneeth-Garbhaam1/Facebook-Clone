@@ -18,13 +18,13 @@
     font-weight: bold;
     font-size: small;
 }
-.storyreel:nth-child(1) > .plus{
+.storyreel:nth-child(1) > .plus {
     position: absolute;
     background-color: #216bda;
     border: 6px solid #fff;
     border-radius: 50%;
-    left: 26rem;
-    top: 32%;
+    left: 5rem;
+    top: 5%;
 }
 .moreStories{
     position: absolute;

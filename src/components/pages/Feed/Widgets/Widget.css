@@ -5,6 +5,10 @@
     position: fixed;
     margin-left: 77%;
     width: 100%;
+    height: 100%;
+}
+.widgets:hover{
+  overflow-y: scroll;
 }
 .widgets .sponsor .item-one{
     margin: 5px;
@@ -18,8 +22,10 @@
   font-size: small;
 }
 .contact-header{
-  
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.contact-icons{
+  padding-left: 8%;
 }
 /* width */
 ::-webkit-scrollbar {

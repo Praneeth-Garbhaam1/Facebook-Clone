@@ -8,11 +8,11 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
 import { Avatar, IconButton } from '@material-ui/core';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../../../StateProvider';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import GroupIcon from '@material-ui/icons/Group';
 import './Dialogbox.css';
-import { text } from '@fortawesome/fontawesome-svg-core';
+
 const styles = (theme) => ({
   root: {
     margin: 0,
